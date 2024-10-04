@@ -22,6 +22,11 @@ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
 
 canvas_client = CanvasLmsApi::Client.new("https://your.canvas.com", "your API Key")
 
+## Todo
+
+-[ ] Add YARD doc
+-[ ] Remove Results.coalesce_results
+
 ## Contributing
 
 1. Fork it ( https://github.com/christopher-b/canvas_lms_api/fork )
