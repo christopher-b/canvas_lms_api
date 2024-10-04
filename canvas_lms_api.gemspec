@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["Christopher Bennell"]
   spec.email = ["cbennell@hey.com"]
 
-  spec.summary = "A simple API client for CanvasLMS."
+  spec.summary = "A simple ruby API client for CanvasLMS."
   # spec.description = "TODO: Write a longer description or delete this line."
   spec.homepage = "https://github.com/christopher-b/canvas_lms_api"
   spec.license = "MIT"
