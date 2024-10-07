@@ -23,6 +23,7 @@ module CanvasLmsApi
       loop do
         response = CanvasLmsApi::Request.new(
           uri,
+          @api_key,
           params[:method],
           params[:payload]
         ).call

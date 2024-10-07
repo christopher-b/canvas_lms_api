@@ -6,8 +6,9 @@ require "canvas_lms_api/response"
 
 module CanvasLmsApi
   class Request
-    def initialize(uri, method = nil, payload = nil)
+    def initialize(uri, api_key, method = nil, payload = nil)
       @uri = uri
+      @api_key = api_key
       @method = method
       @payload = payload
     end
